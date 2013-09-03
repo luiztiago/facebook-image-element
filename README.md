@@ -1,6 +1,6 @@
 # &lt;facebook-image&gt;
 
-TODO: Write a project description
+Web Component wrapper for Facebook Image using Polymer.
 
 > Maintained by [Luiz Tiago](https://github.com/luiztiago).
 
