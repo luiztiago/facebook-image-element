@@ -6,7 +6,7 @@ TODO: Write a project description
 
 ## Demo
 
-> [Check it live](http://customelements.github.io/facebook-image-element).
+> [Check it live](http://luiztiago.github.io/facebook-image-element).
 
 ## Usage
 
