@@ -34,8 +34,8 @@ Attribute  | Options                              | Default             | Descri
 ---        | ---                                  | ---                 | ---
 `id`       | *string*                             | ``                  | People, Event, Groups, Page, Application or Photo Album id
 `type`     | `square`, `small`, `normal`, `large` | `large`             | Type (size) of image. Check Facebook API and see each width and heigh
-`width`    | *int*                                | ``                  | Width size of image in pixels (only need int argument)
-`height`   | *int*                                | ``                  | Height size of image in pixels (only need int argument)
+`width`    | *int*                                | ``                  | Width of image in pixels (only need int argument)
+`height`   | *int*                                | ``                  | Height of image in pixels (only need int argument)
 
 
 ## Contributing
