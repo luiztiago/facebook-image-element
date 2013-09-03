@@ -1,17 +1,17 @@
 <polymer-element name="facebook-image"
-		 attributes="id type width height">
+		 attributes="object type width height">
 
 	<template>
-		<img src="https://graph.facebook.com/{{id}}/picture?type={{type}}&width={{width}}&height={{height}}" />
+		<img src="https://graph.facebook.com/{{object}}/picture?type={{type}}&width={{width}}&height={{height}}" />
 	</template>
 
 	<script>
 		Polymer('facebook-image', {
-			id: '',
-			type: 'large',
-			width: '',
-			height: '',
-			created: function () {}
+			object  : '',
+			type    : 'large',
+			width   : '',
+			height  : '',
+			created : function () {}
 		});
 	</script>
 

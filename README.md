@@ -1,6 +1,6 @@
 # &lt;facebook-image&gt;
 
-TODO: Write a project description
+Web Component wrapper for Facebook Image using Polymer.
 
 > Maintained by [Luiz Tiago](https://github.com/luiztiago).
 
@@ -25,14 +25,14 @@ TODO: Write a project description
 3. Start using it!
 
 	```html
-	<facebook-image id="luiztiago"></facebook-image>
+	<facebook-image object="luiztiago"></facebook-image>
 	```
 
 ## Options
 
 Attribute  | Options                              | Default             | Description
 ---        | ---                                  | ---                 | ---
-`id`       | *string*                             | ``                  | People, Event, Groups, Page, Application or Photo Album id
+`object`   | *string*                             | ``                  | People, Event, Groups, Page, Application or Photo Album id
 `type`     | `square`, `small`, `normal`, `large` | `large`             | Type (size) of image. Check Facebook API and see each width and heigh
 `width`    | *int*                                | ``                  | Width of image in pixels (only need int argument)
 `height`   | *int*                                | ``                  | Height of image in pixels (only need int argument)
