@@ -1,12 +1,12 @@
-# &lt;my-element&gt;
+# &lt;facebook-image&gt;
 
 TODO: Write a project description
 
-> Maintained by [Your Name](https://github.com/yourname).
+> Maintained by [Luiz Tiago](https://github.com/luiztiago).
 
 ## Demo
 
-> [Check it live](http://customelements.github.io/boilerplate-element).
+> [Check it live](http://luiztiago.github.io/facebook-image-element).
 
 ## Usage
 
@@ -19,22 +19,23 @@ TODO: Write a project description
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/my-element.html">
+	<link rel="import" href="src/facebook-image.html">
 	```
 
 3. Start using it!
 
 	```html
-	<my-element></my-element>
+	<facebook-image id="luiztiago"></facebook-image>
 	```
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
-`bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+Attribute  | Options                              | Default             | Description
+---        | ---                                  | ---                 | ---
+`id`       | *string*                             | ``                  | People, Event, Groups, Page, Application or Photo Album id
+`type`     | `square`, `small`, `normal`, `large` | `large`             | Type (size) of image. Check Facebook API and see each width and heigh
+`width`    | *int*                                | ``                  | Width of image in pixels (only need int argument)
+`height`   | *int*                                | ``                  | Height of image in pixels (only need int argument)
 
 
 ## Contributing
@@ -47,7 +48,7 @@ Attribute  | Options                   | Default             | Description
 
 ## History
 
-* v0.0.1 August 19, 2013
+* v0.0.1 September 03, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
 
 ## License
